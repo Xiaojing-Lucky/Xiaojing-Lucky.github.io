@@ -425,7 +425,13 @@ img {
 
 .about__description{
   margin-bottom:2rem;
-  width: 900px;
+  font-size: var(--normal-font-size);
+  line-height: 1.6;
+  color: var(--text-color);
+  max-height: 30.8rem;
+  overflow: auto;
+  position: relative;
+  width: 800px;
 }
 
 .about__description b{
